@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons_9</title>
+    <link rel="stylesheet" href="./css/_normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <form method="GET" class="form">
+                <div>
+                    <label for="name">Повне ім'я </label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Email </label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="password">Пароль </label>
+                    <input type="password" id="password">
+                </div>
+                <div>
+                    <label for="password2">Пароль ще раз </label>
+                    <input type="password" id="password2">
+                </div>
+                <div>
+                    <p class="radio">Стать</p>
+                    <label>
+                        <input type="radio" name="gender" value="female" class="female">Жіноча
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="male" class="male">Чоловіча
+                    </label>
+                </div>
+                <div>
+                    <p class="number">Вік</p>
+                    <label>
+                        <input type="number" name="age" min="1" max="125">
+                    </label>
+                </div>
+                <div> 
+                    <p class="course"> Курс</p>
+                    <select name="course">
+                        <option selected>Виберіть курс</option>
+                        <option value="FrontEnd">FrontEnd-розробник</option>
+                        <option value="QA">QA-інженер</option>
+                        <option value="FullStack">FullStack-розробник</option>
+                        <option value="UI/UX">UI/UX-дизайнер</option>
+                        <option value="Product Manager">Product Manager</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="textarea">Повна адреса</p>
+                    <textarea cols="30" rows="5" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="data" value="text" class="checkbox-input"> <span class="datatext"> Я погоджуюсь з обробкою персональних даних </span> 
+                    </label>
+                </div>
+                <div class="block-btn">
+                    <button type="reset" class="button1">Очистити форму </button>
+                    <button type="submit" class="button2">Зареєструватися</button>
+                </div>
+        </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

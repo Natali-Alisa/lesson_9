@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(255, 255, 255);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.form {
+    max-width: 500px;
+    background: linear-gradient(5deg, #ecf1f1, #c5c6c7e0);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 1px 3px 13px 3px #b0b4b4;
+    margin-top: 20px;
+}
+
+label, .number, .radio, .course, .textarea {
+    display: inline-block;
+    min-width: 150px;
+}
+
+label [type="radio"] {
+    display: inline-block;
+    min-width: 10px;
+}
+
+.form label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.datatext {
+padding-left: 5px;
+}
+.block-btn {
+    text-align: center;
+}
+
+.button1 {
+    margin-right: 30px;
+    } 
+.checkbox {
+margin-bottom: 20px;
+    }  
+
+.button1:hover, .button2:hover {
+        background: #f8fcfb;
+        box-shadow: 0 0 3px 6px #b9c1c5;
+        border-radius: 5px;
+    }
+    
+    .female:hover, .male:hover {
+        background: #d7dad9;
+        box-shadow: 0 0 3px 3px #a4a5a7;
+    }
+
